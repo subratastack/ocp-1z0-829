@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2621c1d3-d64d-4248-a7aa-e26a9dbb67b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ocp-1z0-829.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/AtomicIntegerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/CallableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/FutureInterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/ScheduledExecutorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/SleepExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/SleepInterruptExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/SynchronizedExample.java" afterDir="false" />
-    </list>
+    <list default="true" id="2621c1d3-d64d-4248-a7aa-e26a9dbb67b5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +41,7 @@
     "Application.SleepInterruptExample.executor": "Run",
     "Application.SynchronizedExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
