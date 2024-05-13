@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2621c1d3-d64d-4248-a7aa-e26a9dbb67b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/concurrency/CyclicBarrierExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/ReentrantLockExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/console/ConsoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/console/ConsoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaio/FileCopyPasteWithBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaio/FileCopyPasteWithoutBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaio/destination.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaio/source.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serialization/SerializationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serialization/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2gM7EbrvehaPtNerdKZ6b7sU7Or" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,27 +45,34 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AtomicIntegerExample.executor": "Run",
     "Application.CallableExample.executor": "Run",
+    "Application.ConsoleExample.executor": "Run",
     "Application.CyclicBarrierExample.executor": "Run",
+    "Application.FileCopyPasteWithBuffer.executor": "Run",
+    "Application.FileCopyPasteWithoutBuffer.executor": "Run",
     "Application.FutureInterfaceExample.executor": "Run",
     "Application.ReentrantLockExample.executor": "Run",
     "Application.ScheduledExecutorExample.executor": "Run",
+    "Application.SerializationExample.executor": "Run",
     "Application.SleepExample.executor": "Run",
     "Application.SleepInterruptExample.executor": "Run",
     "Application.SynchronizedExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CyclicBarrierExample">
-    <configuration name="AtomicIntegerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.AtomicIntegerExample" />
+  <component name="RunManager" selected="Application.SerializationExample">
+    <configuration name="ConsoleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="console.ConsoleExample" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.*" />
+          <option name="PATTERN" value="console.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.ReentrantLockExample" />
+    <configuration name="FileCopyPasteWithBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaio.FileCopyPasteWithBuffer" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.*" />
+          <option name="PATTERN" value="javaio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScheduledExecutorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.ScheduledExecutorExample" />
+    <configuration name="FileCopyPasteWithoutBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaio.FileCopyPasteWithoutBuffer" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.*" />
+          <option name="PATTERN" value="javaio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.SynchronizedExample" />
+    <configuration name="SerializationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serialization.SerializationExample" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.*" />
+          <option name="PATTERN" value="serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerializationExample" />
+        <item itemvalue="Application.ConsoleExample" />
+        <item itemvalue="Application.FileCopyPasteWithBuffer" />
+        <item itemvalue="Application.FileCopyPasteWithoutBuffer" />
         <item itemvalue="Application.CyclicBarrierExample" />
-        <item itemvalue="Application.ReentrantLockExample" />
-        <item itemvalue="Application.SynchronizedExample" />
-        <item itemvalue="Application.AtomicIntegerExample" />
-        <item itemvalue="Application.ScheduledExecutorExample" />
       </list>
     </recent_temporary>
   </component>
@@ -137,5 +152,8 @@
       <updated>1715495482965</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
