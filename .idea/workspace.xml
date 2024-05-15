@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2621c1d3-d64d-4248-a7aa-e26a9dbb67b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/beyondclasses/ComplexEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beyondclasses/EnumWithInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beyondclasses/EnumsWithAbstractMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beyondclasses/SimpleEnums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nestedclasses/EmptyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nestedclasses/FinalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nestedclasses/FirstExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nestedclasses/NestedInsideNested.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nestedclasses/OverridingMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sealedclasses/SealedClasses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AnotherClass.executor": "Run",
     "Application.AtomicIntegerExample.executor": "Run",
     "Application.CallableExample.executor": "Run",
     "Application.ComplexEnums.executor": "Run",
@@ -50,7 +53,10 @@
     "Application.EnumsWithAbstractMethods.executor": "Run",
     "Application.FileCopyPasteWithBuffer.executor": "Run",
     "Application.FileCopyPasteWithoutBuffer.executor": "Run",
+    "Application.FirstExample.executor": "Run",
     "Application.FutureInterfaceExample.executor": "Run",
+    "Application.NestedInsideNested.executor": "Run",
+    "Application.OverridingMethod.executor": "Run",
     "Application.ReentrantLockExample.executor": "Run",
     "Application.ScheduledExecutorExample.executor": "Run",
     "Application.SerializationExample.executor": "Run",
@@ -58,6 +64,7 @@
     "Application.SleepExample.executor": "Run",
     "Application.SleepInterruptExample.executor": "Run",
     "Application.SynchronizedExample.executor": "Run",
+    "Application.Tiger.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -65,13 +72,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EnumWithInterface">
-    <configuration name="ComplexEnums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beyondclasses.ComplexEnums" />
+  <component name="RunManager" selected="Application.Tiger">
+    <configuration name="AnotherClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nestedclasses.AnotherClass" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beyondclasses.*" />
+          <option name="PATTERN" value="nestedclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectingToDatabase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.ConnectingToDatabase" />
+    <configuration name="FirstExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nestedclasses.FirstExample" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="nestedclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumWithInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beyondclasses.EnumWithInterface" />
+    <configuration name="NestedInsideNested" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nestedclasses.NestedInsideNested" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beyondclasses.*" />
+          <option name="PATTERN" value="nestedclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumsWithAbstractMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beyondclasses.EnumsWithAbstractMethods" />
+    <configuration name="OverridingMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nestedclasses.OverridingMethod" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beyondclasses.*" />
+          <option name="PATTERN" value="nestedclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleEnums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beyondclasses.SimpleEnums" />
+    <configuration name="Tiger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nestedclasses.Tiger" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beyondclasses.*" />
+          <option name="PATTERN" value="nestedclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EnumWithInterface" />
-        <item itemvalue="Application.EnumsWithAbstractMethods" />
-        <item itemvalue="Application.ComplexEnums" />
-        <item itemvalue="Application.SimpleEnums" />
-        <item itemvalue="Application.ConnectingToDatabase" />
+        <item itemvalue="Application.Tiger" />
+        <item itemvalue="Application.OverridingMethod" />
+        <item itemvalue="Application.NestedInsideNested" />
+        <item itemvalue="Application.AnotherClass" />
+        <item itemvalue="Application.FirstExample" />
       </list>
     </recent_temporary>
   </component>
