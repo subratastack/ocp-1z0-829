@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2621c1d3-d64d-4248-a7aa-e26a9dbb67b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nestedclasses/EmptyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nestedclasses/FinalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nestedclasses/FirstExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nestedclasses/NestedInsideNested.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nestedclasses/OverridingMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sealedclasses/SealedClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/MethodReferenceExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/MethodReferenceExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/MethodReferenceExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/PredicateExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +53,12 @@
     "Application.FileCopyPasteWithoutBuffer.executor": "Run",
     "Application.FirstExample.executor": "Run",
     "Application.FutureInterfaceExample.executor": "Run",
+    "Application.MethodReferenceExample1.executor": "Run",
+    "Application.MethodReferenceExample2.executor": "Run",
+    "Application.MethodReferenceExample3.executor": "Run",
     "Application.NestedInsideNested.executor": "Run",
     "Application.OverridingMethod.executor": "Run",
+    "Application.PredicateExample.executor": "Run",
     "Application.ReentrantLockExample.executor": "Run",
     "Application.ScheduledExecutorExample.executor": "Run",
     "Application.SerializationExample.executor": "Run",
@@ -72,13 +74,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Tiger">
-    <configuration name="AnotherClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nestedclasses.AnotherClass" />
+  <component name="RunManager" selected="Application.MethodReferenceExample3">
+    <configuration name="MethodReferenceExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.MethodReferenceExample1" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nestedclasses.*" />
+          <option name="PATTERN" value="interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nestedclasses.FirstExample" />
+    <configuration name="MethodReferenceExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.MethodReferenceExample2" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nestedclasses.*" />
+          <option name="PATTERN" value="interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedInsideNested" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nestedclasses.NestedInsideNested" />
+    <configuration name="MethodReferenceExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.MethodReferenceExample3" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nestedclasses.*" />
+          <option name="PATTERN" value="interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverridingMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nestedclasses.OverridingMethod" />
+    <configuration name="PredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.PredicateExample" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nestedclasses.*" />
+          <option name="PATTERN" value="interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodReferenceExample3" />
+        <item itemvalue="Application.MethodReferenceExample2" />
+        <item itemvalue="Application.MethodReferenceExample1" />
+        <item itemvalue="Application.PredicateExample" />
         <item itemvalue="Application.Tiger" />
-        <item itemvalue="Application.OverridingMethod" />
-        <item itemvalue="Application.NestedInsideNested" />
-        <item itemvalue="Application.AnotherClass" />
-        <item itemvalue="Application.FirstExample" />
       </list>
     </recent_temporary>
   </component>
