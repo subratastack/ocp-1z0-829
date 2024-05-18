@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2621c1d3-d64d-4248-a7aa-e26a9dbb67b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collections/ComparableInterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/HashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classdesign/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classdesign/Dog11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classdesign/InheritanceMember.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +50,8 @@
     "Application.CyclicBarrierExample.executor": "Run",
     "Application.DequeAsDoubleEndedQueue.executor": "Run",
     "Application.DequeAsStack.executor": "Run",
+    "Application.Dog.executor": "Run",
+    "Application.Dog11.executor": "Run",
     "Application.EnumWithInterface.executor": "Run",
     "Application.EnumsWithAbstractMethods.executor": "Run",
     "Application.FileCopyPasteWithBuffer.executor": "Run",
@@ -57,6 +60,7 @@
     "Application.FunctionInterfaceExample.executor": "Run",
     "Application.FutureInterfaceExample.executor": "Run",
     "Application.HashMapExample.executor": "Run",
+    "Application.InheritanceMember.executor": "Run",
     "Application.ListExample.executor": "Run",
     "Application.MethodReferenceExample1.executor": "Run",
     "Application.MethodReferenceExample2.executor": "Run",
@@ -80,7 +84,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ComparableInterfaceExample">
+  <component name="RunManager" selected="Application.Dog11">
     <configuration name="ComparableInterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.ComparableInterfaceExample" />
       <module name="ocp-1z0-829" />
@@ -94,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DequeAsDoubleEndedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.DequeAsDoubleEndedQueue" />
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classdesign.Dog" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="classdesign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DequeAsStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.DequeAsStack" />
+    <configuration name="Dog11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classdesign.Dog11" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="classdesign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.ListExample" />
+    <configuration name="InheritanceMember" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classdesign.InheritanceMember" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="classdesign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dog11" />
+        <item itemvalue="Application.InheritanceMember" />
+        <item itemvalue="Application.Dog" />
         <item itemvalue="Application.ComparableInterfaceExample" />
         <item itemvalue="Application.HashMapExample" />
-        <item itemvalue="Application.DequeAsDoubleEndedQueue" />
-        <item itemvalue="Application.DequeAsStack" />
-        <item itemvalue="Application.ListExample" />
       </list>
     </recent_temporary>
   </component>
