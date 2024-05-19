@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2621c1d3-d64d-4248-a7aa-e26a9dbb67b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exp/Exam1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exp/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exp/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exp/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/OptionalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/StringExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/StringMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/StreamExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datetime/DateTimeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datetime/DateTimeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocp-1z0-829.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ocp-1z0-829.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +77,7 @@
     "Application.SimpleEnums.executor": "Run",
     "Application.SleepExample.executor": "Run",
     "Application.SleepInterruptExample.executor": "Run",
+    "Application.StreamExample.executor": "Run",
     "Application.StringExample.executor": "Run",
     "Application.StringMethod.executor": "Run",
     "Application.Student.executor": "Run",
@@ -91,6 +85,10 @@
     "Application.SynchronizedExample.executor": "Run",
     "Application.Test1.executor": "Run",
     "Application.Tiger.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -98,7 +96,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OptionalExample">
+  <component name="RunManager" selected="Application.StreamExample">
     <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayExample" />
       <module name="ocp-1z0-829" />
@@ -114,6 +112,19 @@
     </configuration>
     <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streams.OptionalExample" />
+      <module name="ocp-1z0-829" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.StreamExample" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
@@ -151,26 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exp.Student" />
-      <module name="ocp-1z0-829" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamExample" />
         <item itemvalue="Application.OptionalExample" />
         <item itemvalue="Application.StringExample" />
         <item itemvalue="Application.StringMethod" />
         <item itemvalue="Application.ArrayExample" />
-        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
