@@ -1,6 +1,8 @@
 package datetime;
 
 import java.time.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class DateTimeExample {
 
@@ -35,6 +37,28 @@ public class DateTimeExample {
         System.out.println(LocalDate.MAX);
         System.out.println(LocalDate.MIN);
         System.out.println(LocalDate.EPOCH);
+
+        System.out.println(LocalDateTime.now().getSecond());
+        // System.out.println(LocalDate.of(2020, 9, 31));
+        char var  = '7';
+        System.out.println(var);
+
+        LocalDate date2 = LocalDate.parse("1947-08-14");
+        LocalTime time = LocalTime.MAX;
+        System.out.println(date2.atTime(time));
+
+        System.out.println(LocalDate.parse("2018-07-11"));
+
+        List<LocalDate> dates = new ArrayList<>();
+        dates.add(LocalDate.parse("2018-07-11"));
+        dates.add(LocalDate.parse("1919-02-25"));
+        dates.add(LocalDate.of(2020, 4, 8));
+        dates.add(LocalDate.of(1980, Month.DECEMBER, 31));
+
+        dates.removeIf(x -> x.getYear() < 2000);
+
+        System.out.println(dates);
+
     }
 
 }

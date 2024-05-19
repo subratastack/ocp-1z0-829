@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2621c1d3-d64d-4248-a7aa-e26a9dbb67b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/datetime/DateTimeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datetime/PeriodDurationInstantExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exp/Exam1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exp/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exp/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exp/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/OptionalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/StringExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/StringMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datetime/DateTimeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datetime/DateTimeExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +46,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AnotherClass.executor": "Run",
+    "Application.ArrayExample.executor": "Run",
     "Application.AtomicIntegerExample.executor": "Run",
     "Application.CallableExample.executor": "Run",
     "Application.ComparableInterfaceExample.executor": "Run",
@@ -66,6 +74,7 @@
     "Application.MethodReferenceExample2.executor": "Run",
     "Application.MethodReferenceExample3.executor": "Run",
     "Application.NestedInsideNested.executor": "Run",
+    "Application.OptionalExample.executor": "Run",
     "Application.OverridingMethod.executor": "Run",
     "Application.PeriodDurationInstantExample.executor": "Run",
     "Application.PredicateExample.executor": "Run",
@@ -75,8 +84,12 @@
     "Application.SimpleEnums.executor": "Run",
     "Application.SleepExample.executor": "Run",
     "Application.SleepInterruptExample.executor": "Run",
+    "Application.StringExample.executor": "Run",
+    "Application.StringMethod.executor": "Run",
+    "Application.Student.executor": "Run",
     "Application.SupplierInterfaceExample.executor": "Run",
     "Application.SynchronizedExample.executor": "Run",
+    "Application.Test1.executor": "Run",
     "Application.Tiger.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -85,13 +98,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PeriodDurationInstantExample">
-    <configuration name="DateTimeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datetime.DateTimeExample" />
+  <component name="RunManager" selected="Application.OptionalExample">
+    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArrayExample" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datetime.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classdesign.Dog" />
+    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.OptionalExample" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classdesign.*" />
+          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dog11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classdesign.Dog11" />
+    <configuration name="StringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.StringExample" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classdesign.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritanceMember" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classdesign.InheritanceMember" />
+    <configuration name="StringMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.StringMethod" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classdesign.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeriodDurationInstantExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datetime.PeriodDurationInstantExample" />
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exp.Student" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datetime.*" />
+          <option name="PATTERN" value="exp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PeriodDurationInstantExample" />
-        <item itemvalue="Application.DateTimeExample" />
-        <item itemvalue="Application.Dog11" />
-        <item itemvalue="Application.InheritanceMember" />
-        <item itemvalue="Application.Dog" />
+        <item itemvalue="Application.OptionalExample" />
+        <item itemvalue="Application.StringExample" />
+        <item itemvalue="Application.StringMethod" />
+        <item itemvalue="Application.ArrayExample" />
+        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
