@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2621c1d3-d64d-4248-a7aa-e26a9dbb67b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/streams/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/IntermediateOperationExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ocp-1z0-829.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ocp-1z0-829.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +61,7 @@
     "Application.FutureInterfaceExample.executor": "Run",
     "Application.HashMapExample.executor": "Run",
     "Application.InheritanceMember.executor": "Run",
+    "Application.IntermediateOperationExamples.executor": "Run",
     "Application.ListExample.executor": "Run",
     "Application.MethodReferenceExample1.executor": "Run",
     "Application.MethodReferenceExample2.executor": "Run",
@@ -96,13 +96,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StreamExample">
-    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ArrayExample" />
+  <component name="RunManager" selected="Application.IntermediateOperationExamples">
+    <configuration name="IntermediateOperationExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.IntermediateOperationExamples" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntermediateOperationExamples" />
         <item itemvalue="Application.StreamExample" />
         <item itemvalue="Application.OptionalExample" />
         <item itemvalue="Application.StringExample" />
         <item itemvalue="Application.StringMethod" />
-        <item itemvalue="Application.ArrayExample" />
       </list>
     </recent_temporary>
   </component>
