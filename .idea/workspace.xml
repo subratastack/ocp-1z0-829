@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2621c1d3-d64d-4248-a7aa-e26a9dbb67b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/streams/IntermediateOperationExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/CollectingResultsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/PrimitiveStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/SpliteratorExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/StringExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/StringExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,7 @@
     "Application.ArrayExample.executor": "Run",
     "Application.AtomicIntegerExample.executor": "Run",
     "Application.CallableExample.executor": "Run",
+    "Application.CollectingResultsExample.executor": "Run",
     "Application.ComparableInterfaceExample.executor": "Run",
     "Application.ComplexEnums.executor": "Run",
     "Application.ConnectingToDatabase.executor": "Run",
@@ -71,12 +75,14 @@
     "Application.OverridingMethod.executor": "Run",
     "Application.PeriodDurationInstantExample.executor": "Run",
     "Application.PredicateExample.executor": "Run",
+    "Application.PrimitiveStreamExample.executor": "Run",
     "Application.ReentrantLockExample.executor": "Run",
     "Application.ScheduledExecutorExample.executor": "Run",
     "Application.SerializationExample.executor": "Run",
     "Application.SimpleEnums.executor": "Run",
     "Application.SleepExample.executor": "Run",
     "Application.SleepInterruptExample.executor": "Run",
+    "Application.SpliteratorExample.executor": "Run",
     "Application.StreamExample.executor": "Run",
     "Application.StringExample.executor": "Run",
     "Application.StringMethod.executor": "Run",
@@ -96,7 +102,20 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IntermediateOperationExamples">
+  <component name="RunManager" selected="Application.StringExample">
+    <configuration name="CollectingResultsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.CollectingResultsExample" />
+      <module name="ocp-1z0-829" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntermediateOperationExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streams.IntermediateOperationExamples" />
       <module name="ocp-1z0-829" />
@@ -110,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.OptionalExample" />
+    <configuration name="PrimitiveStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.PrimitiveStreamExample" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.StreamExample" />
+    <configuration name="SpliteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.SpliteratorExample" />
       <module name="ocp-1z0-829" />
       <extension name="coverage">
         <pattern>
@@ -149,26 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.StringMethod" />
-      <module name="ocp-1z0-829" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IntermediateOperationExamples" />
-        <item itemvalue="Application.StreamExample" />
-        <item itemvalue="Application.OptionalExample" />
         <item itemvalue="Application.StringExample" />
-        <item itemvalue="Application.StringMethod" />
+        <item itemvalue="Application.CollectingResultsExample" />
+        <item itemvalue="Application.SpliteratorExample" />
+        <item itemvalue="Application.PrimitiveStreamExample" />
+        <item itemvalue="Application.IntermediateOperationExamples" />
       </list>
     </recent_temporary>
   </component>
