@@ -60,6 +60,10 @@ public class IntermediateOperationExamples {
                 .limit(2)
                 .forEach(System.out::println);
 
+
+        // INTERVIEW QUESTION
+
+
         Map<String, Integer[]> originalMap = new HashMap<>();
         originalMap.put("A", new Integer[]{1, 2, 3});
         originalMap.put("B", new Integer[]{1, 4});
